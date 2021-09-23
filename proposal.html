@@ -55,11 +55,45 @@
     </head>
     <body style="background-color: rgb(0, 242, 242);">
         <div id="container">
-            <header><b>Title of Web App</b></header>
-            <section class="middleboxes">Address the following in this section:</section>
-            <section class="middleboxes drop">Address the following in this section:</section>
+            <header><b>Cryptocurrency Portfolio Monitor</b></header>
+            <section class="middleboxes">
+                <p>
+                    APIs we will use:<br>
+                    Nomics API for cryptocurrency market information<br>
+                    FTX API for futures and account information<br>
+                    Exchange API for user account information (Coinbase, Binance, etc.)
+                </p>
+                <p>
+                    The data recieved from the APIs will allow the user to monitor their
+                    cryptocurrency positions across multiple different exchanges, as well
+                    as aggregate and manipulate information from multiple accounts.
+                </p>
+                <p>
+                    From authenticated users we will collect email address, password, any
+                    manually entered positions, and private API keys/secrets to access users'
+                    exchange account information.
+                </p>
+                <p>
+                    USER -> fname, lname, email, pkey<br>
+                    COIN -> symbol, qty, price, entry
+                </p>
+
+            
+            </section>
+            <section class="middleboxes drop">
+                This site could be used by retail cryptocurrency investors. The goals of the
+                site are to provide a convenient location for users to monitor their positions
+                across multiple accounts to have an overview of all of their investments, and
+                create custom price tracking alerts.
+
+            </section>
             <footer>
-                <div class="footer_box"><b>Resource Links</b></div>
+                <div class="footer_box"><b>
+                    Nomics - https://p.nomics.com/cryptocurrency-bitcoin-api<br>
+                    FTX - https://docs.ftx.com/#overview<br>
+                    Coinbase - https://developers.coinbase.com/<br>
+                    Binance -<br> https://binance-docs.github.io/apidocs/spot/en/#change-log
+                </b></div>
                 <div class="footer_box"><b>Questions + Concerns</b></div>
                 <div class="footer_box"><b>Accessibility Implementation</b></div>
             </footer>
