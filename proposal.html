@@ -22,11 +22,11 @@
                 text-align: center;
                 width: 100%;
                 /* height: 200px; */
-                background-color: gray;
+                background-color: white;
             }
             .middleboxes{
                 font-size: 18px;
-                background-color: gray;
+                background-color: white;
                 width: 400px;
                 height: 500px;
                 flex-grow: 1;
@@ -38,14 +38,14 @@
             footer{
                 font-size: 18px;
                 display: flex;
-                background-color: gray;
+                background-color: rgb(0, 161, 161);
                 width: 100%;
                 height: 200px;
                 clear: both;
             }
             .footer_box{
                 flex: 1 0 200px;
-                background-color: rgb(77, 77, 77);
+                background-color: white;
                 width: 150px;
                 margin: 1%;
                 height: 150px;
@@ -57,12 +57,12 @@
         <div id="container">
             <header><b>Cryptocurrency Portfolio Monitor</b></header>
             <section class="middleboxes">
-                <p>
-                    APIs we will use:<br>
-                    Nomics API for cryptocurrency market information<br>
-                    FTX API for futures and account information<br>
-                    Exchange API for user account information (Coinbase, Binance, etc.)
-                </p>
+                <b>APIs We Will Use:</b>
+                <ul>
+                    <li>Nomics API for cryptocurrency market information</li>
+                    <li>FTX API for futures and account information</li>
+                    <li>Exchange API for user account information (Coinbase, Binance, etc.)</li>
+                </ul>
                 <p>
                     The data recieved from the APIs will allow the user to monitor their
                     cryptocurrency positions across multiple different exchanges, as well
@@ -88,12 +88,15 @@
 
             </section>
             <footer>
-                <div class="footer_box"><b>
-                    Nomics - https://p.nomics.com/cryptocurrency-bitcoin-api<br>
-                    FTX - https://docs.ftx.com/#overview<br>
-                    Coinbase - https://developers.coinbase.com/<br>
-                    Binance -<br> https://binance-docs.github.io/apidocs/spot/en/#change-log
-                </b></div>
+                <div class="footer_box">
+                    <b>Resource Links:</b>
+                    <ul>
+                        <li>Nomics - <a href="https://p.nomics.com/cryptocurrency-bitcoin-api">https://p.nomics.com/cryptocurrency-bitcoin-api</a></li>
+                        <li>FTX - <a href="https://docs.ftx.com/#overview">https://docs.ftx.com/#overview</a></li>
+                        <li>Coinbase - <a href="https://developers.coinbase.com/">https://developers.coinbase.com/</a></li>
+                        <li>Binance - <a href="https://binance-docs.github.io/apidocs/spot/en/#change-log">https://binance-docs.github.io/apidocs/spot/en/#change-log</a></li>
+                    </ul>
+                </div>
                 <div class="footer_box"><b>Questions + Concerns</b></div>
                 <div class="footer_box"><b>Accessibility Implementation</b></div>
             </footer>
