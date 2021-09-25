@@ -1,7 +1,7 @@
 ﻿# Assignment 1
 
 Team 9:
-Hector Cedeno-Indriago, Johnathan Chan, Bryan Emer
+Hector Cedeno-Indriago, Johnathan Chen, Bryan Emer
 
 Team 9 decided on a branching strategy to manage the project. For this particular assignment though, we mostly worked on the main branch, pulling and resolving conflicts when necessary.
 
